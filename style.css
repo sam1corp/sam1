@@ -1,0 +1,85 @@
+body {
+    background-color: #000;
+    background-image: url(assets/background.png);
+    background-repeat: no-repeat;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+#main-text-content {
+    position: absolute;
+    font-family: 'Roboto Light';
+    font-size: large;
+    transform: translateX(150px) translateY(300px);
+}
+
+#defaultButtonFormat {
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    height: 50px;
+    width: 200px;
+    margin: 5px;
+    font-family: 'Roboto Light';
+    font-size: 15px;
+}
+
+#defaultButtonFormat:hover {
+    background-color: rgba(50, 50, 50, 50);
+    transition: 0.1s;
+}
+
+#contact-content {
+    position: relative;
+    transform: translateX(150px) translateY(500px);
+}
+
+#headerText {
+    position: absolute;
+    font-family: 'Roboto';
+    letter-spacing: 2px;
+    transform: translateX(960px) translateY(600px);
+}
+
+#titleText {
+    font-family: 'Roboto';
+    font-size: 28px;
+    padding-left: 85px;
+}
+
+#descriptionText {
+    font-family: 'Roboto Light';
+    font-size: 18px;
+    padding-left: 85px;
+}
+
+#project1 {
+    position: absolute;
+    color: white;
+    padding: 15px;
+    background: rgba(20, 20, 20, 5);
+    border-radius: 5px;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 55%;
+    transform: translateX(180px) translateY(720px);
+}
+
+#project1:hover {
+    background: rgba(50, 50, 50, 5);
+    transition: 300ms;
+}
+
+#projectImg {
+    position: absolute;
+    height: 64px;
+    width: 64px;
+    margin: 5px;
+    padding: 5px;
+    padding-left: 0px;
+    margin-left: 0px;
+    border-radius: 100%;
+}
